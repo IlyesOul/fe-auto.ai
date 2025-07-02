@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
       <div className="max-w-xl w-full bg-white shadow-lg rounded-lg p-6 space-y-4">
-        <h1 className="text-2xl font-bold">Ask GPT-4</h1>
+        <h1 className={styles.title}>Ask AutoBud</h1>
         <textarea
           className="w-full border p-2 rounded"
           rows="4"
