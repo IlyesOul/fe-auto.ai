@@ -2,6 +2,34 @@
 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: large;
+    font-size: xx-large;
     color:yellow;
 }
+
+  .fullscreen {
+    background-color: #0f172a; /* Dark blue-gray */
+    min-height: 100vh;
+    color: white;
+    padding-top: 3rem;
+  }
+
+  .prompt_send
+  {
+    background-color:black;
+    color:white;
+    border-radius:25%;
+    font-size:large;
+
+  }
+
+  .prompt_send:hover
+  {
+    background-color: white;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* or any height you want */
+  }
